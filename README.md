@@ -5,7 +5,7 @@ O Web Car é um buscador de carros que oferece uma experiência de usuário intu
 Demonstração
 
 O funcionamento completo do projeto pode ser conferido no YouTube:
-Link do vídeo
+[Link do vídeo](https://youtu.be/fA8QDsxeHik)
 
 Como executar o projeto localmente
 
