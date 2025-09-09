@@ -57,11 +57,6 @@ app.post("/api/parseQuery", async (req, res) => {
   }
 });
 
-// servidor localmente
-if (process.env.NODE_ENV !== "production") {
-  app.listen(port, () => {
-    console.log(`Servidor rodando localmente na porta ${port}`);
-  });
-}
-
-export default app;
+app.listen(port, () => {
+  console.log(`Servidor rodando na porta ${port}`);
+});

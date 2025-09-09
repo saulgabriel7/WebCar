@@ -1,47 +1,28 @@
-# Web Car: Buscador de Carros
+Web Car: Buscador de Carros
 
-Bem-vindo ao Web Car! Este projeto é um buscador de carros que oferece uma experiência de usuário intuitiva e inteligente.
+O Web Car é um buscador de carros que oferece uma experiência de usuário intuitiva e inteligente, facilitando a pesquisa e visualização de veículos.
 
-A aplicação está disponível em:
+Demonstração
 
-[projeto-carros.vercel.app](https://projeto-carros.vercel.app)
+O funcionamento completo do projeto pode ser conferido no YouTube:
+Link do vídeo
 
-Atualizações Recentes no Projeto
+Como executar o projeto localmente
 
-Backend com Express integrado via Vercel como serverless function, permitindo que a IA interprete consultas sem expor a chave da API.
+Instale as dependências do projeto:
 
-Integração com Google Gemini (IA) para converter a busca do usuário em filtros estruturados (nome, localização, preço, tipo e ano).
+npm install
 
-Busca avançada por filtros:
 
-Nome/Marca
+Inicie o servidor de desenvolvimento:
 
-Localização
+npm run dev
 
-Preço Máximo
 
-Tipo
+Para rodar o servidor da inteligência artificial:
 
-Ano do veículo
+node server/server.js
 
-Interface de filtros dinâmica: filtros aplicados aparecem no sidebar e podem ser removidos individualmente ou todos de uma vez.
+Observações
 
-Correção na busca por ano: resultados agora exibem somente veículos do ano especificado.
-
-Frontend responsivo com React + Styled Components + react-router-dom.
-
-Deploy seguro na Vercel, utilizando variáveis de ambiente para a chave da API.
-
-Tecnologias Utilizadas
-
-React – SPA e gerenciamento de componentes
-
-React Router DOM – navegação entre páginas
-
-Styled Components – estilização com CSS-in-JS
-
-Express – backend para processar requisições da IA
-
-Google Generative AI (Gemini) – interpretação inteligente das buscas
-
-Vite – build rápido para desenvolvimento
+O arquivo .env não está incluso no repositório por questões de segurança e privacidade de chaves.
